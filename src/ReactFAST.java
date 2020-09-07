@@ -13,9 +13,15 @@ public class ReactFAST {
 		Thread.sleep(1000);
 		
 		System.out.println("Go!");
+		long startTime = System.currentTimeMillis();
 		
 		Scanner s = new Scanner(System.in);
 		s.next();
+		long stopTime = System.currentTimeMillis();
+		
+		long reactionTime = stopTime - startTime;
+		
+		System.out.println(reactionTime);
 
 	}
 
