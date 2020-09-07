@@ -21,7 +21,7 @@ public class ReactFAST {
 		
 		long reactionTime = stopTime - startTime;
 		
-		System.out.println(reactionTime);
+		System.out.println(reactionTime + "ms");
 
 	}
 
