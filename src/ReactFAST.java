@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class ReactFAST {
 
@@ -12,6 +13,10 @@ public class ReactFAST {
 		Thread.sleep(1000);
 		
 		System.out.println("Go!");
+		
+		Scanner s = new Scanner(System.in);
+		s.next();
+
 	}
 
 }
